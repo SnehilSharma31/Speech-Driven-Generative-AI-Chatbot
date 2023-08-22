@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IAC ChatBot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <a href="https://www.cloudcounselage.com/" target="_blank"><img src="{{ url_for('static', filename='images/IAC.png') }}" alt="image"></a>
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header" style="margin-bottom:0.2cm;">IAC ChatBot</h4>
+                    <p class="chatbox__description--header" style="margin-bottom:0.3cm;">Hi! How can I help you?</p>
+                    <p><a href="https://www.facebook.com/CloudCounselage/" target="_blank"><img src="{{ url_for('static', filename='images/fb.png') }}" style="width:25px;height:25px;"></a>&nbsp;
+                        <a href="https://www.linkedin.com/company/cloud-counselage/" target="_blank"><img src="{{ url_for('static', filename='images/linkedin.png') }}" style="width:25px;height:25px;"></a>&nbsp;
+                        <a href="https://twitter.com/CloudCounselage" target="_blank"><img src="{{ url_for('static', filename='images/twitter.png') }}" style="width:25px;height:25px;"></a>&nbsp;
+                        <a href="https://www.instagram.com/cloudcounselage/" target="_blank"><img src="{{ url_for('static', filename='images/ig.png') }}" style="width:25px;height:25px;"></a>&nbsp;
+                        <a href="https://www.youtube.com/channel/UCAZcXy22Fhj3ARp10Bem-BA" target="_blank"><img src="{{ url_for('static', filename='images/yt.png') }}" style="width:25px;height:25px;"></a>&nbsp;
+                        <a href="mailto:welcome@cloudcounselage.com"><img src="{{ url_for('static', filename='images/email.png') }}" style="width:30px;height:23px;"></a></p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <button class="chatbox__mic--footer" id="toggleSpeech"><img src="{{ url_for('static', filename='images/mic.png') }}" alt="" width="15px" height="15px" /></button>
+                <p id="status" class="lead mt-3 text-light" style="display: none"></p>
+                <input type="text" id="textInput" class="form-control" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button"><img src="{{ url_for('static', filename='images/send.png') }}" style="width:25px;height:25px;"/></button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='speechRecognition.js') }}"></script>
+</body>
+</html>
