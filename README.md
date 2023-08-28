@@ -11,6 +11,7 @@
 - [AI Chatbot Overview](#ai-chatbot-overview)
 - [Technology Used🚀](#technology-used)
 - [Snap of Main Page⭐](#snap-of-main-page)
+- [Video Of the AI Chatbot🎥](#video-of-the-ai-chatbot)
 - [Initial Setup💥](#initial-setup)
 - [Contact Me📞](#contact-me)
 <br>
@@ -41,21 +42,24 @@ The goal of this project is to develop a sophisticated chatbot that can understa
 
 <h2>Snap of Main Page⭐</h2>
 
-![Main](static/images/Interface.png)
+![Interface](https://github.com/SnehilSharma31/Speech-and-Text-Driven-Generative-AI-Chatbot/assets/99540137/b692cb96-97d6-42b0-b710-6573fab5fd1a)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Video Of the AI Chatbot🎥</h2>
+
+https://github.com/SnehilSharma31/Speech-and-Text-Driven-Generative-AI-Chatbot/assets/99540137/200a2d72-61cc-4736-8ac6-4dd70fae828b
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h2>Initial Setup💥</h2>
 
-- Download and install Python (Version 3.9 or above) from the website provided below.
-```
-https://www.python.org/downloads/
-```
-- Download and install Git from the website provided below.
-```
-https://git-scm.com/downloads
-```
+- Download and install Python (Version 3.9 or above) by clicking [here](https://www.python.org/downloads/).
+- Download and install Git by clicking [here](https://git-scm.com/downloads).
 - Clone the GitHub Repository by typing the below command in the terminal.
 ```
 git clone https://github.com/SnehilSharma31/Speech-and-Text-Driven-Generative-AI-Chatbot.git
@@ -78,7 +82,7 @@ python app.py
 ```
 - Go to a browser and type the following local IP address (with port number).
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5000 or http://localhost:5000
 ```
 - Enjoy chatting with the AI Chatbot.
 <p align="right">(<a href="#top">back to top</a>)</p>
