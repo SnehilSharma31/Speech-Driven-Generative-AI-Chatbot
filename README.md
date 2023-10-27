@@ -1,4 +1,4 @@
-# <p align="center">✨Speech & Text Driven Generative AI Chatbot✨</p>
+# <p align="center">🤖Speech & Text Driven Generative AI Chatbot🤖</p>
 
 <div id="top"></div>
 
